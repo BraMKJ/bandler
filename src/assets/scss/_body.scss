@@ -1,0 +1,28 @@
+$line-height: 32px;
+
+body {
+  font-weight: 300;
+  line-height: $line-height;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+/* forms */
+
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+.input-group {
+  margin-bottom: 8px;
+}
